@@ -173,7 +173,7 @@ class Video(YouPlay):
         if num_artists == 0:
             h = (num_tracks == 0 and self._no_artist_no_track) \
                       or (num_tracks == 1 and self._no_artist_one_track) \
-                      or self._no_artst_x_tracks
+                      or self._no_artist_x_tracks
         elif num_artists == 1:
             h = (num_tracks == 0 and self._one_artist_no_track) \
                       or (num_tracks == 1 and self._one_artist_one_track) \
